@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Tumba</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <h1>Te acercas a la tumba</h1>
+      
+      <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="../../../index.html">Inicio</a></li>
+            <li><a href="../../pueblo.html">Pueblo</a></li>
+            <li><a href="../cementerio.html">Cementerio</a></li>
+            <li><a>Tumba</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+      <article>
+
+        <figure>
+          <img 
+            src="/images/tumba.jpg" 
+            alt="Tumba abierta"
+            width="1000"
+          />
+          <figcaption>La tumba parece que fue abierta recientemente...</figcaption>
+        </figure>
+
+        <p>Cuando te acercas a la tumba puedes ver que hay algo adentro, es una billetera. </p>
+
+        <button onclick="document.getElementById('Billetera').showModal()">Recoger billetera</button>
+        <dialog id="Billetera">
+            <h3>Billetera:</h3>
+            <h4>Elementos:</h4>
+            <ul>
+              <li><a>Identificación: Robert Williams</a></li>
+              <li><a>Billete de $20</a></li>
+              <li><a>Foto</a></li>
+            </ul>
+            <form method="dialog">
+                <button>Cerrar</button>
+            </form>
+        </dialog>
+        <p>No lo puedes creer es la billetera de tu amigo, el que te llamó al pueblo. Tuvo que estar aquí... </p>
+
+        <p>Mientras inspeccionas la billetera, de repente sientes que alguien te empuja desde la espalda y caes dentro de la tumba. Desorientado intentas
+           salir de la tumba, pero ya es tarde la persona que te empujó ya cerró la tumba...</p>
+        <section>
+            <nav>
+              <ul>
+                <li><a href="/finales/final2.html">Continuar</a></li>
+              </ul>
+            </nav>
+        </section>
+
+      </article>
+    </main>
+
+    <footer>
+      <p>Progreso de la historia:</p>
+      <progress value="75" max="100">75%</progress>
+    </footer>
+  </body>
+</html>

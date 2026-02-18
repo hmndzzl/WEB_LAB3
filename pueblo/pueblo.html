@@ -20,7 +20,7 @@
     <main>
       <article>
         <p>Luego de 4 horas de camino por fin llegas al pueblo alrededor de las <time datetime="12:00">11:00 PM</time>. Al llegar, te das cuenta de que el lugar 
-            es oscuro y tiene un ambiente pesado.</p>
+            es oscuro y tiene un ambiente pesado. Tu instinto te dice que hay algo raro en ese pueblo, pero igual decides contiuar...</p>
 
         <figure>
           <img 
@@ -28,43 +28,40 @@
             alt="Pueblo abandonado"
             width="1000"
           />
-          <figcaption>El pueblo es oscuro y tiene un ambiente pesado.</figcaption>
+          <figcaption>El parece que fue abandonado hace mucho tiempo y parece que no fue por algo bueno.</figcaption>
         </figure>
+
+        <p>Comienzas a caminar en busca de tu amigo y en la entrada ves un mensaje que está carvado en el piso...</p>
         
         <aside>
             <details>
-                <summary>Leer la inscripción borrosa del buzón</summary>
+                <summary>Leer mensaje marcado en el piso</summary>
                 <p>
-                    "Propiedad de Zork. No abrir bajo ninguna circunstancia."
+                    "No entrar. Alejarse de este lugar. No es seguro."
                 </p>
             </details>
         </aside>
 
+        <p>El mensaje es algo inquietante pero igual decides continuar adentrandote en el pueblo en busca de tu amigo y pistas que te ayuden
+          a decifrar lo que está pasando en el lugar. Caminas por un rato y te encuentras con dos caminos con un letrero que indica por la iquierda: "Iglesia",
+          por la derecha: "Cementerio"</p>
+
         <section>
-            <h2>¿Qué quieres hacer?</h2>
+            <h2>¿A dónde quieres ir?</h2>
             <nav>
               <ul>
-                <li><a href="scenes/mailbox.html">Abrir el buzón</a></li>
-                <li><a href="scenes/forest/edge.html">Ir al norte</a></li>
+                <li><a href="cementerio/cementerio.html">Cementerio</a></li>
+                <li><a href="iglesia/iglesia.html">Iglesia</a></li>
               </ul>
             </nav>
         </section>
-
-        <dialog open>
-            <p>¡Escuchas un susurro que viene de la casa!</p>
-            <form method="dialog">
-                <button>Ignorar y continuar</button>
-            </form>
-        </dialog>
 
       </article>
     </main>
 
     <footer>
-      <p>Elige sabiamente.</p>
-      <a href="../../index.html">Reiniciar Historia</a>
       <p>Progreso de la historia:</p>
-      <progress value="0" max="100">0%</progress>
+      <progress value="25" max="100">25%</progress>
     </footer>
   </body>
 </html>
